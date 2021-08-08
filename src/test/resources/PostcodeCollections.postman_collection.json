@@ -1,0 +1,70 @@
+{
+	"id": "243bfdaf-1efe-ba3b-b7df-8c9c3e3f2ad9",
+	"name": "PostcodeCollections",
+	"description": "",
+	"order": [
+		"7e38cdb6-f4cc-d2a2-f1a5-841a752ad4a7",
+		"09143fa0-69e2-d121-7d02-f602623d84d6"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1628402026756,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "09143fa0-69e2-d121-7d02-f602623d84d6",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:8080/names/1234/1236",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "243bfdaf-1efe-ba3b-b7df-8c9c3e3f2ad9",
+			"data": null,
+			"dataMode": "params",
+			"name": "getPostcode",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1628402279701,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "7e38cdb6-f4cc-d2a2-f1a5-841a752ad4a7",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://locahost:8080/postcodes",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "243bfdaf-1efe-ba3b-b7df-8c9c3e3f2ad9",
+			"data": [],
+			"dataMode": "raw",
+			"name": "SavePostcodeRequest",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1628402031870,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "[\r\n  {\r\n    \"postcode\": \"1234\",\r\n    \"name\": \"William Shakespeare\"\r\n  },\r\n  {\r\n    \"postcode\": \"1235\",\r\n    \"name\": \"Abraham Lincoln\"\r\n  },\r\n  {\r\n    \"postcode\": \"1236\",\r\n    \"name\": \"George Washington\"\r\n  },\r\n  {\r\n    \"postcode\": \"1237\",\r\n    \"name\": \"Alexander the Great\"\r\n  },\r\n  {\r\n    \"postcode\": \"1238\",\r\n    \"name\": \"Henry VIII of England\"\r\n  },\r\n  {\r\n    \"postcode\": \"1239\",\r\n    \"name\": \"Elizabeth I of England\"\r\n  },\r\n  {\r\n    \"postcode\": \"1240\",\r\n    \"name\": \"Wolfgang Amadeus Mozart\"\r\n  },\r\n  {\r\n    \"postcode\": \"1240\",\r\n    \"name\": \"George W. Bush\"\r\n  },\r\n  {\r\n    \"postcode\": \"1241\",\r\n    \"name\": \"Joseph Smith, Jr.\"\r\n  },\r\n  {\r\n    \"postcode\": \"1242\",\r\n    \"name\": \"Shortest\"\r\n  },\r\n  {\r\n    \"postcode\": \"1243\",\r\n    \"name\": \"1111111111111111111111111111111111111111111\"\r\n  }\r\n]"
+		}
+	]
+}

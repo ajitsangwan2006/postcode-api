@@ -1,0 +1,46 @@
+[
+  {
+    "postcode": "1234",
+    "name": "William Shakespeare"
+  },
+  {
+    "postcode": "1235",
+    "name": "Abraham Lincoln"
+  },
+  {
+    "postcode": "1236",
+    "name": "George Washington"
+  },
+  {
+    "postcode": "1237",
+    "name": "Alexander the Great"
+  },
+  {
+    "postcode": "1238",
+    "name": "Henry VIII of England"
+  },
+  {
+    "postcode": "1239",
+    "name": "Elizabeth I of England"
+  },
+  {
+    "postcode": "1240",
+    "name": "Wolfgang Amadeus Mozart"
+  },
+  {
+    "postcode": "1240",
+    "name": "George W. Bush"
+  },
+  {
+    "postcode": "1241",
+    "name": "Joseph Smith, Jr."
+  },
+  {
+    "postcode": "1242",
+    "name": "Shortest"
+  },
+  {
+    "postcode": "1243",
+    "name": "1111111111111111111111111111111111111111111"
+  }
+]
